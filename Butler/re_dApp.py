@@ -18,7 +18,7 @@ def load_contract():
     with open(Path('./contracts/compiled/propertywork_abi.json')) as f:
         propertywork_abi = json.load(f)
        
-        contract_address = os.getenv("0xd9145CCE52D386f254917e481eB44e9943F39138")
+        contract_address = os.getenv("SMART_CONTRACT_ADDRESS")
 
         contract = w3.eth.contract(
             address=contract_address,
