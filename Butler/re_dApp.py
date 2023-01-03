@@ -15,7 +15,7 @@ w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 #Created a contract helper function to load the function and connect the contract using the abi address
 @st.cache(allow_output_mutation=True)
 def load_contract():
-    with open(Path('./contracts/compiled/propertywork_abi.json')) as f:
+    with open(Path('./compiled/propertyrecord_abi.json')) as f:
         propertywork_abi = json.load(f)
        
         contract_address = os.getenv("SMART_CONTRACT_ADDRESS")
