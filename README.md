@@ -38,7 +38,9 @@ Here is a screenshot of the streamlit app to add a new document to the blockchai
 ## Contributors
 
 Zach Butler
+
 Simon Abennet
+
 Jim Hitchcock
 
 ---
